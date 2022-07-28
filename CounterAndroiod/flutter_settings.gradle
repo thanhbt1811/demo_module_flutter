@@ -1,0 +1,5 @@
+setBinding(new Binding([gradle: this]))
+evaluate(new File(
+        settingsDir.parentFile,
+        './counter_flutter/.android/include_flutter.groovy'
+))
